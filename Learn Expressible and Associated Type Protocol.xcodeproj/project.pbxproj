@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		46B093EC1FE1875100585ACC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B093EB1FE1875100585ACC /* main.swift */; };
+		46B093F31FE1877A00585ACC /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B093F21FE1877A00585ACC /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		46B093E81FE1875100585ACC /* Learn Expressible and Associated Type Protocol */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Learn Expressible and Associated Type Protocol"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46B093EB1FE1875100585ACC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		46B093F21FE1877A00585ACC /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				46B093EB1FE1875100585ACC /* main.swift */,
+				46B093F21FE1877A00585ACC /* Utilities.swift */,
 			);
 			path = "Learn Expressible and Associated Type Protocol";
 			sourceTree = "<group>";
@@ -120,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46B093F31FE1877A00585ACC /* Utilities.swift in Sources */,
 				46B093EC1FE1875100585ACC /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

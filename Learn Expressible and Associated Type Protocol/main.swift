@@ -8,5 +8,15 @@
 
 import Foundation
 
-print("Hello, World!")
+
+let person1 = Person(stringLiteral: "Sam Ashe")
+
+// because it conforms to ExpressibleByStringLiteral - this works
+let person2: Person = "yes sir"
+
+
+// 
+let p3:Person = "pop"
+
+print(p3)
 
